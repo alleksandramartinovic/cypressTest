@@ -1,0 +1,28 @@
+{
+    "baseUrl": "https://www.phptravels.net",
+    "integrationFolder": "cypress/integration",
+    "viewportHeight": 1000,
+    "viewportWidth": 1280,
+    
+
+      "env": {
+        "apiUrl": "http://localhost:3001",
+        "mobileViewportWidthBreakpoint": 414,
+        "coverage": false,
+        "codeCoverage": {
+          "url": "http://localhost:3001/__coverage__"
+        },
+        "user1": {
+          "username": "user@phptravels.com",
+          "password": "demouser"
+        },
+        "user2": {
+          "username": "agent@phptravels.com",
+          "password": "demoagent"
+        }
+    },
+    "defaultCommandTimeout": 8000,
+    "requestTimeout": 6000,
+    "responseTimeout": 30000,
+    "experimentalStudio": true
+}
