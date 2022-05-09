@@ -26,7 +26,7 @@ const accountInfoAgent = {
     firstName: 'agent1',
     lastName: 'agent11',
     phone: '123456',
-    email: 'agent1@blabla.com',
+    email: 'agent111222@blabla.com',
     password: 'agent1',
     accountType: 'Agent'
 }
